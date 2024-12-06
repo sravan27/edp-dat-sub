@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Data directories
+data/
+models/
+
+# Logs
+logs/
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Secrets and environment variables
+.env
+.venv
+
+# Large model files
+references/pipeline_model_niv.pkl
+references/pipeline_model_price.pkl
+references/stacking_regressor_model.pkl
+streamlit_app/models/pipeline_model_niv.pkl
+streamlit_app/models/pipeline_model_price.pkl
